@@ -1,0 +1,1 @@
+# Zabbix Basic CPU Temperature
