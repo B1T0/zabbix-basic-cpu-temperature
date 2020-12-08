@@ -7,7 +7,7 @@ This is a very basic template for Zabbix to monitor CPU temperature of Linux mac
 ### Configure Zabbix Agent
 1. Make sure lm-sensors is installed. If not use `sudo apt install lm-sensors` to install it.
 2. Copy userparameter_cputemp.conf to /etc/zabbix/zabbix_agentd.d/.
-3. Restart zabbix-agent using `sudo systemctrl restart zabbix-agent`.
+3. Restart zabbix-agent using `sudo systemctl restart zabbix-agent`.
 
 ### Configure Zabbix web-panel
 1. In Configuration>Templates click on Import.
